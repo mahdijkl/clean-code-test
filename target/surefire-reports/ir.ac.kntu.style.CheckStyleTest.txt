@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: ir.ac.kntu.style.CheckStyleTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.391 s <<< FAILURE! - in ir.ac.kntu.style.CheckStyleTest
+testCheckStyleIndentation(ir.ac.kntu.style.CheckStyleTest)  Time elapsed: 0.328 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 check style errors found. Starting audit...
+[ERROR] C:\Users\moham\Documents\Java_floder\project\project1\src\main\java\ir\ac\kntu\Main.java:13:5: Method ProgramAnalyzer length is 87 lines (max allowed is 45). [MethodLength]
+Audit done.
+
+	at ir.ac.kntu.style.CheckStyleTest.testCheckStyleIndentation(CheckStyleTest.java:104)
+
+testCheckStyleNaming(ir.ac.kntu.style.CheckStyleTest)  Time elapsed: 0.063 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 check style errors found. Starting audit...
+[ERROR] C:\Users\moham\Documents\Java_floder\project\project1\src\main\java\ir\ac\kntu\Main.java:13:24: Name 'ProgramAnalyzer' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+Audit done.
+
+	at ir.ac.kntu.style.CheckStyleTest.testCheckStyleNaming(CheckStyleTest.java:175)
+
